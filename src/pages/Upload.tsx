@@ -1,4 +1,4 @@
-import { Upload } from "lucide-react";
+import { Upload as UploadIcon } from "lucide-react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -39,7 +39,7 @@ export default function Upload() {
         `}
       >
         <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
-          <Upload className="h-6 w-6 text-primary" />
+          <UploadIcon className="h-6 w-6 text-primary" />
         </div>
         <div className="text-center">
           <h3 className="text-lg font-medium mb-1">Upload your document</h3>
